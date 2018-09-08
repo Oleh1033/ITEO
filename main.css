@@ -1,3 +1,52 @@
 
-
 /*# sourceMappingURL=main.css.map */
+.contain{
+    position: relative;
+    height: 3400px;
+    width: 922px;
+    background-color: rgba(204, 204, 204, 0.43);
+}
+.img {
+    background-repeat: no-repeat;
+    margin-top:300px;
+    margin-left:100px;
+    height: 433px;
+    width: 700px;
+
+}
+.layer-0{
+    background-image: url(img/0.png);
+    background-size: 433px 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+.layer-1{
+    background-image: url(img/1.png);
+    background-size: 433px 100%;
+    position: fixed;
+    opacity: 1;
+}
+.layer-2{
+    background-image: url(img/2.png);
+    background-size: 433px 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+.layer-3{
+    background-image: url(img/3.png);
+    background-size: 433px 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+.layer-4{
+    background-image: url(img/4.png);
+    background-size: 433px 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+.layer-5{
+    background-image: url(img/5.png);
+    background-size: 433px 100%;
+    opacity: 0;
+    position: fixed;
+}
