@@ -1,8 +1,7 @@
 $(window).scroll(function () {
     var w$scroll =  $(this).scrollTop();
 
-    if (!(w$scroll > 0 && w$scroll < 205)) {
-    } else {
+    if ((w$scroll > 10 && w$scroll < 205)) {
         $('.layer-1').css({'transform' : 'rotate3d(1, 0, 0,' + w$scroll/4 +  'deg)'})
 
         $('.layer-0').css({'opacity':w$scroll/200})
