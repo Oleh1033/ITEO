@@ -2,7 +2,7 @@
 /*# sourceMappingURL=main.css.map */
 .contain{
     position: relative;
-    height: 3400px;
+    height: 1400px;
     width: 922px;
     background-color: rgba(204, 204, 204, 0.43);
 }
@@ -17,7 +17,7 @@
 .layer-0{
     background-image: url(img/0.png);
     background-size: 433px 100%;
-    opacity: 0.5;
+    opacity: 0.01;
     position: fixed;
 }
 .layer-1{
@@ -26,6 +26,13 @@
     position: fixed;
     opacity: 1;
 }
+.layer-6{
+    background-image: url(img/6.svg);
+    background-size: 433px 100%;
+    position: fixed;
+    opacity: 1;
+}
+
 .layer-2{
     background-image: url(img/2.png);
     background-size: 433px 100%;
