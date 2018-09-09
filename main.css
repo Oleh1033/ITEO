@@ -1,59 +1,60 @@
 
 /*# sourceMappingURL=main.css.map */
-.contain{
+.wrap{
     position: relative;
-    height: 1400px;
+    height: 1300px;
     width: 922px;
-    background-color: rgba(204, 204, 204, 0.43);
+    background-color: rgba(43, 49, 172, 0.74);
 }
 .img {
     background-repeat: no-repeat;
-    margin-top:300px;
+    margin-top:100px;
     margin-left:100px;
-    height: 433px;
-    width: 700px;
+    height: 530px;
+    width: 100%;
 
 }
 .layer-0{
     background-image: url(img/0.png);
-    background-size: 433px 100%;
+    background-size: 530px 100%;
     opacity: 0.01;
     position: fixed;
 }
 .layer-1{
     background-image: url(img/1.png);
-    background-size: 433px 100%;
+    background-size: 530px 100%;
     position: fixed;
     opacity: 1;
+  /*  transform: rotate3d(1, 0, 0, 50deg);  */
 }
-.layer-6{
+/* .layer-6{
     background-image: url(img/6.svg);
-    background-size: 433px 100%;
+    background-size: 530px 100%;
     position: fixed;
     opacity: 1;
-}
+} */
 
 .layer-2{
     background-image: url(img/2.png);
-    background-size: 433px 100%;
-    opacity: 0.5;
+    background-size: 530px 100%;
+    opacity: 0;
     position: fixed;
 }
 .layer-3{
     background-image: url(img/3.png);
-    background-size: 433px 100%;
-    opacity: 0.5;
+    background-size: 530px 100%;
+    opacity: 0;
     position: fixed;
 }
 .layer-4{
     background-image: url(img/4.png);
-    background-size: 433px 100%;
-    opacity: 0.5;
+    background-size: 530px 100%;
+    opacity: 0;
     position: fixed;
 }
 .layer-5{
     background-image: url(img/5.png);
-    background-size: 433px 100%;
+    background-size: 530px 100%;
     opacity: 0;
     position: fixed;
 }
